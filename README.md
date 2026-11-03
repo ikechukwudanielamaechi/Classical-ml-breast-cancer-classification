@@ -16,7 +16,9 @@ Research Question
 How do Logistic Regression, K-Nearest Neighbours and Random Forest compare in their ability to classify malignant and benign cases using the Breast Cancer Wisconsin Diagnostic dataset?
 
 Dataset
+Dataset reference
 
+The original Breast Cancer Wisconsin Diagnostic dataset.
 The dataset was loaded using the load_breast_cancer() function from scikit-learn.
 
 It contains:
@@ -27,9 +29,10 @@ It contains:
 
 Target class mapping:
 
-Label	    Class
-0	        Malignant
-1	        Benign
+Label	    Class            Number of Observations 
+0	        Malignant         212
+1	        Benign            357
+          Total             569
 
 Technologies Used
 
@@ -64,6 +67,8 @@ Malignant Precision	     97.62%	                    95.12%	        95.12%
 Malignant Recall	     97.62%	                    92.86%	        92.86%
 Malignant F1-score	     97.62%	                    93.98%	        93.98%
 
+Precision, recall and F1-score are reported for the malignant class (label 0). Accuracy represents overall classification accuracy across both classes.
+
 Key Findings
 
 * Logistic Regression achieved the highest accuracy on the selected test set.
@@ -90,12 +95,14 @@ This project is an educational machine learning experiment and is not intended f
 Reproducibility
 
 To reproduce the experiment:
+pip install -r requirements.txt
 
 1. Clone this repository.
 2. Install the dependencies listed in requirements.txt.
 3. Open the Jupyter Notebook.
 4. Run the notebook cells in order.
 
+   
 Author
 
 Computer Engineering Graduate | Aspiring AI/ML Researcher
