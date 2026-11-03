@@ -58,11 +58,11 @@ Experimental Results
 
 The following results were obtained from the test set:
 
-Metric	Logistic Regression	KNN	Random Forest
-Accuracy	98.25%	95.61%	95.61%
-Malignant Precision	97.62%	95.12%	95.12%
-Malignant Recall	97.62%	92.86%	92.86%
-Malignant F1-score	97.62%	93.98%	93.98%
+Metric	                 Logistic Regression	    KNN	            Random Forest
+Accuracy	             98.25%	                    95.61%	        95.61%
+Malignant Precision	     97.62%	                    95.12%	        95.12%
+Malignant Recall	     97.62%	                    92.86%	        92.86%
+Malignant F1-score	     97.62%	                    93.98%	        93.98%
 
 Key Findings
 
