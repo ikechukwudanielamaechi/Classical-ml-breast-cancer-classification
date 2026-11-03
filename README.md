@@ -4,8 +4,7 @@ Project Overview
 
 This project compares three classical machine learning algorithms for classifying malignant and benign cases using the Breast Cancer Wisconsin Diagnostic dataset.
 
-The algorithms evaluated are:
-
+The algorithms evaluated are
 * Logistic Regression
 * K-Nearest Neighbours (KNN)
 * Random Forest
@@ -28,9 +27,9 @@ It contains:
 
 Target class mapping:
 
-Label	Class
-0	Malignant
-1	Benign
+Label	    Class
+0	        Malignant
+1	        Benign
 
 Technologies Used
 
